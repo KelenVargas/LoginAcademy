@@ -1,0 +1,13 @@
+body{
+    background-image: url(../assets/academia.jpg);
+}
+
+.card-transparent{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+    backdrop-filter: blur(16px);
+    border-radius: 25px;
+    
+}

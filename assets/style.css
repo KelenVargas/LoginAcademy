@@ -5,9 +5,9 @@ body{
 .card-transparent{
     width: 600px;
     height: 600px;
-    position: relative;
-    margin: 0 auto;
-    backdrop-filter: blur(16px);
-    border-radius: 25px;
-    
+    backdrop-filter: blur(46px);
+    border-radius: 25px;  
+    margin: auto;  
+    margin-top: 150px;
 }
+

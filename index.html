@@ -5,22 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"> 
     <title>Bem vindo</title>
 </head>
 
 <body>
     <main>
-        <h1>Faça seu login</h1>
+        <img class="logo" src="./assets/logo.png">
         <form class="card-transparent" action="" method="POST">
-                <div class="input">
-                    <label for="usuario">Usuario</label>
-                    <input type="text" id="usuario" name="usuario" placeholder="Digite seu nome de usuario" required>
-                </div>
-                <div class="input">
-                    <label for="senha">Senha</label>
-                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
-                </div>
+            <div class="input" id="validarInput">
+                <label for="email"> E-mail</label>
+                <input class="input1" type="email" id="email" name="email" placeholder="Digite seu email" required>
+            </div>
+
+            <div class="input">
+                <label for="senha">Senha</label>
+                <input class="input1" type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+            </div>
+            <div class="resetarSenha">
+                Esqueceu sua senha? <span><a>Clique aqui!</a></span>
+            </div>
+
+            <div class="botao">
+                <button> Entrar </button>
+            </div>
+
+            <div class="criarConta">
+                <span><a> Crie uma conta!</a></span>
+            </div>
+
         </form>
+
     </main>
 </body>
 
